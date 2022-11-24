@@ -1,0 +1,45 @@
+.item-card:hover {
+    box-shadow: 0 50px 50px 0 rgba(247, 247, 247, 0.2);
+}
+
+.text-card {
+    color: white;
+}
+.text-card > h4 {
+    display: inline-block;
+    margin: 10px;
+}
+
+.item-card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgb(9, 67, 79);
+    border-radius: 10px;
+    transition: 0.8s;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: #130f40;
+}
+
+.itamCard-buy-button {
+    background-color: #4b5d8b;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    width: 50px;
+    font-size: 15px;
+}
+.itamCard-buy-button:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+.price {
+    background-color: #130f40;
+    border: 0;
+    width: 50px;
+    font-size: 15px;
+    color: aliceblue;
+}
